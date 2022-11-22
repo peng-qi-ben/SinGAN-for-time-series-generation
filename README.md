@@ -1,3 +1,7 @@
+# Introduction
+
+This code is based on https://github.com/tamarott/SinGAN. The code in this project has been modified to enable it to generate time series (originally used for image generation), and also using 8 indicators(Autocorrelation, Fat-tailed, Volatility clustering, Leverage effect, Coarse-fine volatility, Gain/loss asymmetry, variance_ratio and DTW) to evaluate the quality of the generated time series.
+
 The code that needs to be run for the whole process of model training, generation, and testing is:
 
 1. main_train.py
@@ -7,6 +11,7 @@ The code that needs to be run for the whole process of model training, generatio
 ## 1. Model Training
 
 Run **main_train.py**.
+
 
 The input of the model should be price data. To train with yield data, the parameters can be adjusted and in this case the output is also yield data. If the model is trained directly with price data, the output is a normalized price series.
 
