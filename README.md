@@ -1,5 +1,3 @@
-# Read me
-
 The code that needs to be run for the whole process of model training, generation, and testing is:
 
 1. main_train.py
