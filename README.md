@@ -17,9 +17,9 @@ The input of the model should be price data. To train with yield data, the param
 
 The file will train the model and generate 1000 samples.
 
-**The training results of the model** will be in the  <TarinedModels>  folder. This includes the trained saved models, and the Loss information for each layer.
+**The training results of the model** will be in the **TarinedModels** folder. This includes the trained saved models, and the Loss information for each layer.
 
-**The results of the model generation** are in the  <Output>  folder.
+**The results of the model generation** are in the  **Output**  folder.
 
 ## 2. Model testing and plot
 
@@ -33,17 +33,17 @@ Running the **plot.py** file first draws a plot of the original sequence; and dr
 
 **For Daily frequency data**:
 
- If you select daily frequency data in the parameters, it will first convert it into a price series to draw a series chart. The generated price series and yield series will be exported to the <daily_6+2_test> folder. The yield series can be then tested directly in the **6+2test.py** file. 
+ If you select daily frequency data in the parameters, it will first convert it into a price series to draw a series chart. The generated price series and yield series will be exported to the **daily_6+2_test** folder. The yield series can be then tested directly in the **6+2test.py** file. 
 
-To test 8 indicators on daily frequency data, run the code in **6+2test.py** directly, with parameters consistent with those in **plot.py**. The results will be also in the <daily_6+2_test> folder.
+To test 8 indicators on daily frequency data, run the code in **6+2test.py** directly, with parameters consistent with those in **plot.py**. The results will be also in the **daily_6+2_test** folder.
 
 **For monthly frequency data:**
 
-The generated price series will be exported to the <monthly_fourier> folder. Then the Fourier transform can be used to check its periodicity, however, this part of the code cannot be disclosed.
+The generated price series will be exported to the **monthly_fourier** folder. Then the Fourier transform can be used to check its periodicity, however, this part of the code cannot be disclosed.
 
 ## 3. Use the trained model
 
-If <TraindeModels> has a corresponding trained model, run the **random_samples.py** file.
+If **TraindeModels** has a corresponding trained model, run the **random_samples.py** file.
 
 
 
