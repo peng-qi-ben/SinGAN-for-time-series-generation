@@ -17,9 +17,9 @@ The input of the model should be price data. To train with yield data, the param
 
 The file will train the model and generate 1000 samples.
 
-**The training results of the model** will be in the <TarinedModels> folder. This includes the trained saved models, and the Loss information for each layer.
+**The training results of the model** will be in the  <TarinedModels>  folder. This includes the trained saved models, and the Loss information for each layer.
 
-**The results of the model generation** are in the <Output> folder.
+**The results of the model generation** are in the  <Output>  folder.
 
 ## 2. Model testing and plot
 
